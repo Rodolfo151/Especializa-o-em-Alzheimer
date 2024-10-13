@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Mentora e Especialista em Alzheimer</title>
+    <style>
+        /* Estilos adicionais para mobile */
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .circle {
+            display: none; /* Oculta para otimizar o layout no mobile */
+        }
+
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f5f5f5;
+        }
+
+        .logo {
+            max-width: 120px;
+            height: auto;
+        }
+
+        .navagation ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .navagation a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0 0 15px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .icons img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .boxImg {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .img1 {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            .logo {
+                max-width: 100px;
+            }
+
+            .icons img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="imagens/Logo.jpeg" alt="logo" class="logo"></a>
+            <nav class="navagation">
+                <ul>
+                    <li><a href="#Home">Início</a></li>
+                    <li><a href="On.html">Sobre</a></li>
+                    <li><a href="#">Especialização</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="text">
+                <h2>Cileuda Santos <br><span>Mentora e Especialista </span><span>em Alzheimer</span></h2>
+                <p>Especialista em Alzheimer muitas vezes combina conhecimentos de diferentes áreas, como neurologia, geriatria, psicologia, e até nutrição. Isso permite uma abordagem mais holística no tratamento da doença, considerando não apenas os sintomas, mas também o bem-estar físico e emocional do paciente.</p>
+                <a href="#">Alzheimer Além do Óbvio 🧠</a>
+            </div>
+        </div>
+        <ul class="icons">
+            <li><a href="#"><img src="imagens/whatsapp.png" alt="icons"></a></li>
+            <li><a href="#"><img src="imagens/facebook.png" alt="icons"></a></li>
+            <li><a href="#"><img src="imagens/instagram.png" alt="icons"></a></li>
+        </ul>
+        <div class="boxImg">
+            <img src="imagens/canteiro.png" alt="Imagem do curso" class="img1">
+        </div>
+    </section>
+</body>
+</html>
